@@ -126,3 +126,7 @@ SELECT airport_name FROM airports ORDER BY built_date DESC LIMIT 1;
 
 -- 6 --
 SELECT * FROM airports ORDER BY plane_count DESC LIMIT 1;
+
+DROP DATABASE IF EXISTS airports;
+
+\! cls
