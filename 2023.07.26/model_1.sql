@@ -127,3 +127,7 @@ SELECT * FROM users WHERE gender = "Male" LIMIT 10;
 
 -- 6 --
 SELECT COUNT(gender) AS "Female" FROM users WHERE gender = "Female";
+
+DROP DATABASE IF EXISTS users_data;
+
+\! cls
