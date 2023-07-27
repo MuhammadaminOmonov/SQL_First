@@ -35,7 +35,7 @@ class Databaza:
 
 
     def insertData(self):
-        self.cursor.execute(f"""
+        self.cursor.execute("""
             insert into medicine (id, drug_name, drug_company, drug_datetime, drug_country, drug_price) values 
             (1, 'Grama Grass', 'Nelco Laboratories, Inc.', '2022-12-08', 'Japan', 825),
             (2, 'Diltiazem Hydrochloride', 'West-ward Pharmaceutical Corp.', '2022-10-08', 'France', 316),

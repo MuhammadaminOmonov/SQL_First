@@ -7,7 +7,7 @@ class Databaza:
         self.mydb = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="32!V996g" # o'zingizning parolingiz
+            password="unkown" # o'zingizning parolingiz
         )
         self.cursor = self.mydb.cursor()
 
